@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.tickets-button {
+  font-family: 'BebasNeuePro-Bold', sans-serif;
+  background-color: #ed3895;
+  cursor: pointer;
+  text-align: center;
+  /* line-height: 36px; */
+  font-size: 18px;
+  padding: 8px 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.burger-button {
+  filter: invert(100%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.actions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.cover-photo {
+  position: relative;
+  z-index: 0;
+}
+.cover-photo-text {
+  position: absolute;
+  z-index: 100;
+  bottom: 50px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+}
+
+.cover-photo-container {
+  position: relative;
+}
+
+.text {
+  color: white;
+  padding: 30px;
+  font-size: 18px;
+}
